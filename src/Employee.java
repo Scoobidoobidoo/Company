@@ -16,4 +16,12 @@ public class Employee {
     public String getName() {
         return name;
     }
+    public String getPhone() {
+        return phone;
+    }
+
+    @Override
+    public String toString() {
+        return this.getName();
+    }
 }
